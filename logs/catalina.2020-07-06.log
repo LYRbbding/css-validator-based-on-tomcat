@@ -1,0 +1,1131 @@
+06-Jul-2020 15:29:11.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.36
+06-Jul-2020 15:29:11.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 3 2020 17:07:09 UTC
+06-Jul-2020 15:29:11.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.36.0
+06-Jul-2020 15:29:11.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Jul-2020 15:29:11.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.104-microsoft-standard
+06-Jul-2020 15:29:11.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jul-2020 15:29:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-14-oracle
+06-Jul-2020 15:29:11.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           14.0.1+7
+06-Jul-2020 15:29:11.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jul-2020 15:29:11.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 15:29:11.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 15:29:11.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 15:29:11.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 15:29:11.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 15:29:11.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/mnt/d/apache-tomcat-9.0.36//conf/logging.properties
+06-Jul-2020 15:29:11.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 15:29:11.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 15:29:11.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 15:29:11.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Jul-2020 15:29:11.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jul-2020 15:29:11.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/mnt/d/apache-tomcat-9.0.36/
+06-Jul-2020 15:29:11.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/mnt/d/apache-tomcat-9.0.36/
+06-Jul-2020 15:29:11.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/mnt/d/apache-tomcat-9.0.36//temp
+06-Jul-2020 15:29:11.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+06-Jul-2020 15:29:12.419 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 15:29:12.482 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,280] milliseconds
+06-Jul-2020 15:29:12.586 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jul-2020 15:29:12.586 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.36]
+06-Jul-2020 15:29:12.702 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/mnt/d/apache-tomcat-9.0.36/webapps/css-validator.war]
+06-Jul-2020 15:35:17.901 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2020 15:35:18.131 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/mnt/d/apache-tomcat-9.0.36/webapps/css-validator.war] has finished in [365,429] ms
+06-Jul-2020 15:35:18.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/docs]
+06-Jul-2020 15:35:18.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/docs] has finished in [686] ms
+06-Jul-2020 15:35:18.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/examples]
+06-Jul-2020 15:35:29.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/examples] has finished in [10,415] ms
+06-Jul-2020 15:35:29.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/host-manager]
+06-Jul-2020 15:35:30.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/host-manager] has finished in [785] ms
+06-Jul-2020 15:35:30.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/manager]
+06-Jul-2020 15:35:30.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/manager] has finished in [821] ms
+06-Jul-2020 15:35:30.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/ROOT]
+06-Jul-2020 15:35:31.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/ROOT] has finished in [778] ms
+06-Jul-2020 15:35:31.657 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 15:35:31.694 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [379,210] milliseconds
+06-Jul-2020 16:23:59.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.36
+06-Jul-2020 16:23:59.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 3 2020 17:07:09 UTC
+06-Jul-2020 16:23:59.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.36.0
+06-Jul-2020 16:23:59.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Jul-2020 16:23:59.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.104-microsoft-standard
+06-Jul-2020 16:23:59.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jul-2020 16:23:59.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-14-oracle
+06-Jul-2020 16:23:59.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           14.0.1+7
+06-Jul-2020 16:23:59.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jul-2020 16:23:59.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 16:23:59.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 16:23:59.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 16:23:59.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 16:23:59.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 16:23:59.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/mnt/d/apache-tomcat-9.0.36/conf/logging.properties
+06-Jul-2020 16:23:59.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 16:23:59.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 16:23:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 16:23:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Jul-2020 16:23:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Jul-2020 16:23:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 16:23:59.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/mnt/d/apache-tomcat-9.0.36
+06-Jul-2020 16:23:59.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/mnt/d/apache-tomcat-9.0.36/temp
+06-Jul-2020 16:23:59.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+06-Jul-2020 16:23:59.678 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 16:23:59.731 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,113] milliseconds
+06-Jul-2020 16:23:59.824 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jul-2020 16:23:59.825 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.36]
+06-Jul-2020 16:23:59.914 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/mnt/d/apache-tomcat-9.0.36/webapps/css-validator.war]
+06-Jul-2020 16:26:40.183 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2020 16:26:40.402 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/mnt/d/apache-tomcat-9.0.36/webapps/css-validator.war] has finished in [160,488] ms
+06-Jul-2020 16:26:40.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/docs]
+06-Jul-2020 16:26:41.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/docs] has finished in [812] ms
+06-Jul-2020 16:26:41.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/examples]
+06-Jul-2020 16:26:52.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/examples] has finished in [11,669] ms
+06-Jul-2020 16:26:52.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/host-manager]
+06-Jul-2020 16:26:53.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/host-manager] has finished in [987] ms
+06-Jul-2020 16:26:53.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/manager]
+06-Jul-2020 16:26:54.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/manager] has finished in [1,054] ms
+06-Jul-2020 16:26:54.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/ROOT]
+06-Jul-2020 16:26:55.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/d/apache-tomcat-9.0.36/webapps/ROOT] has finished in [824] ms
+06-Jul-2020 16:26:55.790 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 16:26:55.823 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [176,090] milliseconds
+06-Jul-2020 17:00:29.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 17:00:29.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 17:00:29.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 17:00:29.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 17:00:29.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 17:00:29.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 17:00:29.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 17:00:29.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 17:00:29.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 17:00:29.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:00:29.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:00:29.216 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 17:00:29.216 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 17:00:29.217 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 17:00:29.251 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 17:00:29.252 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 17:00:29.252 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 17:00:29.253 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 17:00:29.254 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 17:00:29.254 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:00:29.255 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:00:29.255 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 17:00:29.256 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 17:00:29.532 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 17:00:29.639 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 初始化组件[Connector[HTTP/1.1-8080]]失败。
+	org.apache.catalina.LifecycleException: 协议处理程序初始化失败
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:479)
+		at java.base/sun.nio.ch.Net.bind(Net.java:468)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+06-Jul-2020 17:00:29.652 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[707]毫秒内初始化
+06-Jul-2020 17:00:29.688 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 17:00:29.689 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 17:00:29.707 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 17:00:32.548 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 17:00:32.686 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[2,980]ms内完成
+06-Jul-2020 17:00:32.691 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 17:00:32.718 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[27]毫秒内完成
+06-Jul-2020 17:00:32.744 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 17:00:33.124 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[379]毫秒内完成
+06-Jul-2020 17:00:33.141 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 17:00:33.181 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[40]毫秒内完成
+06-Jul-2020 17:00:33.196 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 17:00:33.229 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[33]毫秒内完成
+06-Jul-2020 17:00:33.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 17:00:33.272 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[24]毫秒内完成
+06-Jul-2020 17:00:33.277 信息 [main] org.apache.catalina.startup.Catalina.start [3,624]毫秒后服务器启动
+06-Jul-2020 17:03:33.666 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+06-Jul-2020 17:04:22.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 17:04:22.020 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 17:04:22.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 17:04:22.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 17:04:22.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 17:04:22.024 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 17:04:22.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 17:04:22.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 17:04:22.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 17:04:22.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:04:22.026 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:04:22.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 17:04:22.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 17:04:22.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 17:04:22.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 17:04:22.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 17:04:22.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 17:04:22.050 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 17:04:22.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 17:04:22.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:04:22.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:04:22.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 17:04:22.053 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 17:04:22.338 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 17:04:22.443 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 初始化组件[Connector[HTTP/1.1-8080]]失败。
+	org.apache.catalina.LifecycleException: 协议处理程序初始化失败
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:479)
+		at java.base/sun.nio.ch.Net.bind(Net.java:468)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+06-Jul-2020 17:04:22.447 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[654]毫秒内初始化
+06-Jul-2020 17:04:22.499 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 17:04:22.500 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 17:04:22.521 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 17:04:25.304 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 17:04:25.400 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[2,878]ms内完成
+06-Jul-2020 17:04:25.401 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 17:04:25.430 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[29]毫秒内完成
+06-Jul-2020 17:04:25.431 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 17:04:25.826 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[395]毫秒内完成
+06-Jul-2020 17:04:25.827 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 17:04:25.864 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[37]毫秒内完成
+06-Jul-2020 17:04:25.865 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 17:04:25.893 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[28]毫秒内完成
+06-Jul-2020 17:04:25.894 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 17:04:25.919 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[26]毫秒内完成
+06-Jul-2020 17:04:25.923 信息 [main] org.apache.catalina.startup.Catalina.start [3,467]毫秒后服务器启动
+06-Jul-2020 17:09:30.672 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 17:09:30.685 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:09:30.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 17:09:30.710 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 17:09:30.714 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 17:09:31.062 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 17:09:31.241 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[812]毫秒内初始化
+06-Jul-2020 17:09:31.295 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 17:09:31.298 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 17:09:31.331 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 17:09:34.821 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 17:09:34.939 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[3,608]ms内完成
+06-Jul-2020 17:09:34.939 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 17:09:34.987 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[48]毫秒内完成
+06-Jul-2020 17:09:34.989 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 17:09:35.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[446]毫秒内完成
+06-Jul-2020 17:09:35.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 17:09:35.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[51]毫秒内完成
+06-Jul-2020 17:09:35.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 17:09:35.534 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[48]毫秒内完成
+06-Jul-2020 17:09:35.534 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 17:09:35.567 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[33]毫秒内完成
+06-Jul-2020 17:09:35.575 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 17:09:35.587 信息 [main] org.apache.catalina.startup.Catalina.start [4,345]毫秒后服务器启动
+06-Jul-2020 17:10:18.440 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[GET / HTTP/1.1]
+06-Jul-2020 17:10:18.766 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[GET / HTTP/1.1]
+06-Jul-2020 17:10:18.767 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[GET / HTTP/1.1]
+06-Jul-2020 17:10:19.084 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[GET / HTTP/1.1]
+06-Jul-2020 17:10:29.351 警告 [main] org.apache.catalina.core.StandardServer.await 尝试读取关机命令时发生IO异常
+	java.net.SocketTimeoutException: Read timed out
+		at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+		at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+		at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+		at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+		at java.base/java.net.Socket$SocketInputStream.read(Socket.java:982)
+		at java.base/java.net.Socket$SocketInputStream.read(Socket.java:977)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:640)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+06-Jul-2020 17:10:29.352 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+06-Jul-2020 17:14:30.296 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+06-Jul-2020 18:46:47.631 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 18:46:47.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 18:46:47.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 18:46:47.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 18:46:47.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 18:46:47.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 18:46:47.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 18:46:47.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 18:46:47.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 18:46:47.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 18:46:47.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 18:46:47.652 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 18:46:47.653 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 18:46:47.653 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 18:46:47.654 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 18:46:47.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 18:46:47.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 18:46:47.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 18:46:47.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 18:46:47.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 18:46:47.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 18:46:47.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 18:46:47.669 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 18:46:47.970 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 18:46:48.102 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[693]毫秒内初始化
+06-Jul-2020 18:46:48.145 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 18:46:48.146 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 18:46:48.169 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 18:46:48.194 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 18:46:54.296 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 18:46:54.387 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,218]ms内完成
+06-Jul-2020 18:46:54.388 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 18:46:54.416 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[28]毫秒内完成
+06-Jul-2020 18:46:54.416 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 18:46:54.783 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[367]毫秒内完成
+06-Jul-2020 18:46:54.784 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 18:46:54.826 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[41]毫秒内完成
+06-Jul-2020 18:46:54.827 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 18:46:54.860 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[33]毫秒内完成
+06-Jul-2020 18:46:54.860 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 18:46:54.885 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[25]毫秒内完成
+06-Jul-2020 18:46:54.890 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 18:46:54.903 信息 [main] org.apache.catalina.startup.Catalina.start [6,799]毫秒后服务器启动
+06-Jul-2020 18:48:10.530 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+06-Jul-2020 18:48:10.531 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+06-Jul-2020 18:48:10.567 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+06-Jul-2020 18:48:10.597 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 18:48:10.600 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+06-Jul-2020 18:57:26.500 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 18:57:26.503 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 18:57:26.504 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 18:57:26.504 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 18:57:26.505 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 18:57:26.505 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 18:57:26.505 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 18:57:26.506 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 18:57:26.506 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 18:57:26.506 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 18:57:26.506 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 18:57:26.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 18:57:26.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 18:57:26.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 18:57:26.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 18:57:26.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 18:57:26.524 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 18:57:26.524 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 18:57:26.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 18:57:26.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 18:57:26.526 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 18:57:26.526 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 18:57:26.527 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 18:57:26.808 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 18:57:26.925 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[640]毫秒内初始化
+06-Jul-2020 18:57:26.964 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 18:57:26.964 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 18:57:26.985 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 18:57:27.006 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 18:57:33.050 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 18:57:33.142 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,157]ms内完成
+06-Jul-2020 18:57:33.143 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 18:57:33.172 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[28]毫秒内完成
+06-Jul-2020 18:57:33.172 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 18:57:33.526 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[354]毫秒内完成
+06-Jul-2020 18:57:33.526 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 18:57:33.567 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[41]毫秒内完成
+06-Jul-2020 18:57:33.568 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 18:57:33.601 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[33]毫秒内完成
+06-Jul-2020 18:57:33.601 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 18:57:33.629 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[28]毫秒内完成
+06-Jul-2020 18:57:33.633 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 18:57:33.645 信息 [main] org.apache.catalina.startup.Catalina.start [6,718]毫秒后服务器启动
+06-Jul-2020 19:10:14.821 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 19:10:14.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 19:10:14.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 19:10:14.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 19:10:14.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 19:10:14.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 19:10:14.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 19:10:14.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 19:10:14.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 19:10:14.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:10:14.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:10:14.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 19:10:14.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 19:10:14.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 19:10:14.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 19:10:14.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 19:10:14.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 19:10:14.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 19:10:14.844 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 19:10:14.851 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:10:14.852 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:10:14.853 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 19:10:14.853 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 19:10:15.135 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 19:10:15.261 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[658]毫秒内初始化
+06-Jul-2020 19:10:15.299 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 19:10:15.299 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 19:10:15.319 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 19:10:15.342 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 19:10:21.701 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 19:10:21.794 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,475]ms内完成
+06-Jul-2020 19:10:21.795 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 19:10:21.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[30]毫秒内完成
+06-Jul-2020 19:10:21.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 19:10:22.212 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[387]毫秒内完成
+06-Jul-2020 19:10:22.213 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 19:10:22.266 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[52]毫秒内完成
+06-Jul-2020 19:10:22.267 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 19:10:22.325 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[59]毫秒内完成
+06-Jul-2020 19:10:22.326 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 19:10:22.364 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[38]毫秒内完成
+06-Jul-2020 19:10:22.372 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 19:10:22.386 信息 [main] org.apache.catalina.startup.Catalina.start [7,125]毫秒后服务器启动
+06-Jul-2020 19:22:00.423 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 19:22:00.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 19:22:00.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 19:22:00.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 19:22:00.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 19:22:00.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 19:22:00.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 19:22:00.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 19:22:00.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 19:22:00.434 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:22:00.434 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:22:00.443 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 19:22:00.443 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 19:22:00.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 19:22:00.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 19:22:00.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 19:22:00.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 19:22:00.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 19:22:00.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 19:22:00.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:22:00.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:22:00.448 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 19:22:00.448 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 19:22:00.730 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 19:22:00.854 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[645]毫秒内初始化
+06-Jul-2020 19:22:00.890 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 19:22:00.891 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 19:22:00.912 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 19:22:00.937 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 19:22:06.737 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 19:22:06.828 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,915]ms内完成
+06-Jul-2020 19:22:06.829 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 19:22:06.857 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[27]毫秒内完成
+06-Jul-2020 19:22:06.857 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 19:22:07.219 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[362]毫秒内完成
+06-Jul-2020 19:22:07.220 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 19:22:07.262 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[41]毫秒内完成
+06-Jul-2020 19:22:07.262 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 19:22:07.297 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[35]毫秒内完成
+06-Jul-2020 19:22:07.298 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 19:22:07.329 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[30]毫秒内完成
+06-Jul-2020 19:22:07.333 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 19:22:07.345 信息 [main] org.apache.catalina.startup.Catalina.start [6,490]毫秒后服务器启动
+06-Jul-2020 19:26:24.068 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 19:26:24.074 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:26:24.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 19:26:24.099 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 19:26:24.407 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 19:26:24.538 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[745]毫秒内初始化
+06-Jul-2020 19:26:24.583 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 19:26:24.583 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 19:26:24.608 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 19:26:27.709 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 19:26:27.800 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[3,192]ms内完成
+06-Jul-2020 19:26:27.800 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 19:26:27.832 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[32]毫秒内完成
+06-Jul-2020 19:26:27.832 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 19:26:28.235 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[403]毫秒内完成
+06-Jul-2020 19:26:28.235 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 19:26:28.266 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[31]毫秒内完成
+06-Jul-2020 19:26:28.276 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 19:26:28.306 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[30]毫秒内完成
+06-Jul-2020 19:26:28.306 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 19:26:28.336 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[30]毫秒内完成
+06-Jul-2020 19:26:28.340 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 19:26:28.352 信息 [main] org.apache.catalina.startup.Catalina.start [3,811]毫秒后服务器启动
+06-Jul-2020 19:50:14.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:50:14.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 19:50:14.120 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 19:50:14.411 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 19:50:14.529 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[669]毫秒内初始化
+06-Jul-2020 19:50:14.575 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 19:50:14.575 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 19:50:14.586 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 19:50:14.610 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 19:50:20.336 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 19:50:20.428 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,842]ms内完成
+06-Jul-2020 19:50:20.428 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 19:50:20.467 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[29]毫秒内完成
+06-Jul-2020 19:50:20.468 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 19:50:20.857 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[389]毫秒内完成
+06-Jul-2020 19:50:20.857 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 19:50:20.899 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[42]毫秒内完成
+06-Jul-2020 19:50:20.899 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 19:50:20.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[36]毫秒内完成
+06-Jul-2020 19:50:20.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 19:50:20.957 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[22]毫秒内完成
+06-Jul-2020 19:50:20.970 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 19:50:20.982 信息 [main] org.apache.catalina.startup.Catalina.start [6,442]毫秒后服务器启动
+06-Jul-2020 20:03:01.404 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 20:03:01.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:03:01.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 20:03:01.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:03:01.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:03:01.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 20:03:01.431 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 20:03:01.716 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 20:03:01.840 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[663]毫秒内初始化
+06-Jul-2020 20:03:01.885 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 20:03:01.885 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 20:03:01.906 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 20:03:01.928 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 20:03:08.174 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 20:03:08.286 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,380]ms内完成
+06-Jul-2020 20:03:08.286 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 20:03:08.334 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[48]毫秒内完成
+06-Jul-2020 20:03:08.335 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 20:03:08.738 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[403]毫秒内完成
+06-Jul-2020 20:03:08.738 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 20:03:08.781 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[43]毫秒内完成
+06-Jul-2020 20:03:08.791 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 20:03:08.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[34]毫秒内完成
+06-Jul-2020 20:03:08.825 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 20:03:08.858 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[33]毫秒内完成
+06-Jul-2020 20:03:08.865 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 20:03:08.878 信息 [main] org.apache.catalina.startup.Catalina.start [7,030]毫秒后服务器启动
+06-Jul-2020 20:22:12.891 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 20:22:12.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 20:22:12.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:22:12.903 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:22:12.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 20:22:12.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 20:22:12.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 20:22:12.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 20:22:12.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 20:22:12.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 20:22:12.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 20:22:12.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 20:22:12.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:22:12.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:22:12.928 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 20:22:12.928 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 20:22:13.219 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 20:22:13.348 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[678]毫秒内初始化
+06-Jul-2020 20:22:13.386 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 20:22:13.386 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 20:22:13.411 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 20:22:13.437 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 20:22:19.517 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 20:22:19.611 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,200]ms内完成
+06-Jul-2020 20:22:19.613 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 20:22:19.640 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[28]毫秒内完成
+06-Jul-2020 20:22:19.642 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 20:22:20.026 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[384]毫秒内完成
+06-Jul-2020 20:22:20.028 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 20:22:20.068 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[42]毫秒内完成
+06-Jul-2020 20:22:20.068 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 20:22:20.106 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[38]毫秒内完成
+06-Jul-2020 20:22:20.106 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 20:22:20.136 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[30]毫秒内完成
+06-Jul-2020 20:22:20.143 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 20:22:20.155 信息 [main] org.apache.catalina.startup.Catalina.start [6,805]毫秒后服务器启动
+06-Jul-2020 20:38:09.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:38:09.559 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:38:09.585 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 20:38:09.592 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 20:38:09.945 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 20:38:10.101 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[838]毫秒内初始化
+06-Jul-2020 20:38:10.144 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 20:38:10.144 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 20:38:10.182 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 20:38:10.217 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 20:38:17.566 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 20:38:17.695 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[7,513]ms内完成
+06-Jul-2020 20:38:17.695 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 20:38:17.742 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[42]毫秒内完成
+06-Jul-2020 20:38:17.744 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 20:38:18.333 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[591]毫秒内完成
+06-Jul-2020 20:38:18.337 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 20:38:18.402 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[65]毫秒内完成
+06-Jul-2020 20:38:18.402 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 20:38:18.475 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[73]毫秒内完成
+06-Jul-2020 20:38:18.475 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 20:38:18.525 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[50]毫秒内完成
+06-Jul-2020 20:38:18.540 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 20:38:18.556 信息 [main] org.apache.catalina.startup.Catalina.start [8,456]毫秒后服务器启动
+06-Jul-2020 20:59:46.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 20:59:46.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 20:59:46.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 20:59:46.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 20:59:46.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:59:46.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:59:46.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 20:59:46.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 20:59:46.307 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 20:59:46.597 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 20:59:46.717 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[672]毫秒内初始化
+06-Jul-2020 20:59:46.757 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 20:59:46.757 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 20:59:46.779 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 20:59:46.807 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 20:59:53.019 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 20:59:53.111 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,332]ms内完成
+06-Jul-2020 20:59:53.112 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 20:59:53.137 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[25]毫秒内完成
+06-Jul-2020 20:59:53.137 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 20:59:53.670 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[533]毫秒内完成
+06-Jul-2020 20:59:53.670 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 20:59:53.717 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[47]毫秒内完成
+06-Jul-2020 20:59:53.719 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 20:59:53.752 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[28]毫秒内完成
+06-Jul-2020 20:59:53.752 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 20:59:53.779 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[27]毫秒内完成
+06-Jul-2020 20:59:53.783 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 20:59:53.802 信息 [main] org.apache.catalina.startup.Catalina.start [7,077]毫秒后服务器启动
+06-Jul-2020 21:53:38.441 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 21:53:38.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 21:53:38.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 21:53:38.464 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 21:53:38.472 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 21:53:38.746 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 21:53:38.866 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[641]毫秒内初始化
+06-Jul-2020 21:53:38.902 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 21:53:38.902 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 21:53:38.925 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 21:53:44.051 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 21:53:44.145 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,220]ms内完成
+06-Jul-2020 21:53:44.145 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 21:53:44.175 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[29]毫秒内完成
+06-Jul-2020 21:53:44.175 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 21:53:44.535 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[360]毫秒内完成
+06-Jul-2020 21:53:44.535 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 21:53:44.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[39]毫秒内完成
+06-Jul-2020 21:53:44.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 21:53:44.609 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[35]毫秒内完成
+06-Jul-2020 21:53:44.609 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 21:53:44.635 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[26]毫秒内完成
+06-Jul-2020 21:53:44.637 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 21:53:44.652 信息 [main] org.apache.catalina.startup.Catalina.start [5,780]毫秒后服务器启动
+06-Jul-2020 22:06:27.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:06:27.844 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:06:27.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:06:27.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:06:27.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:06:27.846 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:06:27.846 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:06:27.846 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:06:27.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:06:27.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:06:27.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:06:27.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:06:27.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:06:27.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:06:27.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:06:27.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:06:27.863 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:06:27.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:06:27.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:06:27.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:06:27.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:06:27.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:06:27.868 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:06:28.196 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:06:28.320 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[707]毫秒内初始化
+06-Jul-2020 22:06:28.359 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:06:28.360 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:06:28.379 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:06:31.195 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:06:31.300 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[2,920]ms内完成
+06-Jul-2020 22:06:31.301 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:06:31.331 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[30]毫秒内完成
+06-Jul-2020 22:06:31.333 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:06:31.755 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[422]毫秒内完成
+06-Jul-2020 22:06:31.755 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:06:31.802 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[44]毫秒内完成
+06-Jul-2020 22:06:31.802 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:06:31.837 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[34]毫秒内完成
+06-Jul-2020 22:06:31.837 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:06:31.867 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[30]毫秒内完成
+06-Jul-2020 22:06:31.874 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:06:31.887 信息 [main] org.apache.catalina.startup.Catalina.start [3,565]毫秒后服务器启动
+06-Jul-2020 22:11:42.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:11:42.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:11:42.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:11:42.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:11:42.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:11:42.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:11:42.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:11:42.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:11:42.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:11:42.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:11:42.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:11:42.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:11:42.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:11:42.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:11:42.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:11:42.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:11:42.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:11:42.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:11:42.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:11:42.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:11:42.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:11:42.248 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:11:42.257 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:11:42.627 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:11:42.791 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[896]毫秒内初始化
+06-Jul-2020 22:11:42.847 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:11:42.847 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:11:42.881 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:11:42.916 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 22:11:49.313 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:11:49.426 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,543]ms内完成
+06-Jul-2020 22:11:49.427 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:11:49.478 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[51]毫秒内完成
+06-Jul-2020 22:11:49.478 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:11:49.921 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[443]毫秒内完成
+06-Jul-2020 22:11:49.923 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:11:49.971 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[48]毫秒内完成
+06-Jul-2020 22:11:49.971 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:11:50.016 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[38]毫秒内完成
+06-Jul-2020 22:11:50.016 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:11:50.057 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[41]毫秒内完成
+06-Jul-2020 22:11:50.066 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:11:50.077 信息 [main] org.apache.catalina.startup.Catalina.start [7,285]毫秒后服务器启动
+06-Jul-2020 22:20:53.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:20:53.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:20:53.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:20:53.161 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:20:53.501 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:20:53.664 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[824]毫秒内初始化
+06-Jul-2020 22:20:53.729 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:20:53.729 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:20:53.759 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:20:56.791 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:20:56.909 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[3,149]ms内完成
+06-Jul-2020 22:20:56.910 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:20:56.942 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[33]毫秒内完成
+06-Jul-2020 22:20:56.942 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:20:57.373 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[431]毫秒内完成
+06-Jul-2020 22:20:57.379 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:20:57.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[56]毫秒内完成
+06-Jul-2020 22:20:57.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:20:57.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[49]毫秒内完成
+06-Jul-2020 22:20:57.487 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:20:57.519 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[32]毫秒内完成
+06-Jul-2020 22:20:57.524 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:20:57.543 信息 [main] org.apache.catalina.startup.Catalina.start [3,874]毫秒后服务器启动
+06-Jul-2020 22:24:53.693 信息 [Thread-3] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+06-Jul-2020 22:24:53.738 信息 [Thread-3] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+06-Jul-2020 22:24:53.790 信息 [Thread-3] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 22:24:53.803 信息 [Thread-3] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:27:31.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:27:31.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:27:31.107 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:27:31.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:27:31.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:27:31.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:27:31.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:27:31.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:27:31.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:27:31.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:27:31.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:27:31.124 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:27:31.125 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:27:31.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:27:31.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:27:31.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:27:31.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:27:31.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:27:31.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:27:31.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:27:31.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:27:31.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:27:31.150 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:27:31.478 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:27:31.622 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[796]毫秒内初始化
+06-Jul-2020 22:27:31.673 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:27:31.675 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:27:31.703 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:27:34.798 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:27:34.916 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[3,213]ms内完成
+06-Jul-2020 22:27:34.918 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:27:34.956 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[39]毫秒内完成
+06-Jul-2020 22:27:34.957 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:27:35.411 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[453]毫秒内完成
+06-Jul-2020 22:27:35.412 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:27:35.468 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[56]毫秒内完成
+06-Jul-2020 22:27:35.469 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:27:35.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[45]毫秒内完成
+06-Jul-2020 22:27:35.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:27:35.549 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[33]毫秒内完成
+06-Jul-2020 22:27:35.555 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:27:35.568 信息 [main] org.apache.catalina.startup.Catalina.start [3,944]毫秒后服务器启动
+06-Jul-2020 22:28:17.594 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:28:17.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:28:17.599 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:28:17.599 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:28:17.600 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:28:17.600 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:28:17.601 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:28:17.602 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:28:17.602 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:28:17.602 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:28:17.603 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:28:17.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:28:17.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:28:17.624 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:28:17.625 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:28:17.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:28:17.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:28:17.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:28:17.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:28:17.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:28:17.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:28:17.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:28:17.631 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:28:18.014 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:28:18.182 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[906]毫秒内初始化
+06-Jul-2020 22:28:18.246 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:28:18.247 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:28:18.289 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:28:18.329 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 22:28:24.703 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:28:24.811 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,523]ms内完成
+06-Jul-2020 22:28:24.813 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:28:24.849 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[35]毫秒内完成
+06-Jul-2020 22:28:24.849 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:28:25.291 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[441]毫秒内完成
+06-Jul-2020 22:28:25.291 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:28:25.339 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[48]毫秒内完成
+06-Jul-2020 22:28:25.340 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:28:25.385 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[44]毫秒内完成
+06-Jul-2020 22:28:25.385 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:28:25.418 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[32]毫秒内完成
+06-Jul-2020 22:28:25.425 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:28:25.438 信息 [main] org.apache.catalina.startup.Catalina.start [7,255]毫秒后服务器启动
+06-Jul-2020 22:40:51.409 信息 [Thread-3] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+06-Jul-2020 22:40:51.450 信息 [Thread-3] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+06-Jul-2020 22:40:51.503 信息 [Thread-3] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+06-Jul-2020 22:40:51.509 信息 [Thread-3] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:43:02.251 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:43:02.255 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:43:02.256 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:43:02.257 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:43:02.257 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:43:02.257 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:43:02.257 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:43:02.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:43:02.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:43:02.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:43:02.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:43:02.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:43:02.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:43:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:43:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:43:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:43:02.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:43:02.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:43:02.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:43:02.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:43:02.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:43:02.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:43:02.294 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:43:02.674 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:43:02.836 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[891]毫秒内初始化
+06-Jul-2020 22:43:02.896 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:43:02.896 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:43:02.919 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:43:02.950 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 22:43:09.577 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:43:09.681 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,762]ms内完成
+06-Jul-2020 22:43:09.681 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:43:09.717 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[36]毫秒内完成
+06-Jul-2020 22:43:09.719 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:43:10.179 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[460]毫秒内完成
+06-Jul-2020 22:43:10.179 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:43:10.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[51]毫秒内完成
+06-Jul-2020 22:43:10.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:43:10.276 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[35]毫秒内完成
+06-Jul-2020 22:43:10.276 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:43:10.306 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[30]毫秒内完成
+06-Jul-2020 22:43:10.315 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:43:10.331 信息 [main] org.apache.catalina.startup.Catalina.start [7,491]毫秒后服务器启动
+06-Jul-2020 22:51:13.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:51:13.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:51:13.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:51:13.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:51:13.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:51:13.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:51:13.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:51:13.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:51:13.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:51:13.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:51:13.286 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:51:13.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:51:13.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:51:13.306 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:51:13.306 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:51:13.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:51:13.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:51:13.309 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:51:13.309 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:51:13.310 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:51:13.312 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:51:13.319 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:51:13.320 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:51:13.692 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:51:13.869 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[891]毫秒内初始化
+06-Jul-2020 22:51:13.924 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:51:13.925 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:51:13.959 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:51:13.998 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 22:51:20.647 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:51:20.754 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,794]ms内完成
+06-Jul-2020 22:51:20.757 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:51:20.792 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[34]毫秒内完成
+06-Jul-2020 22:51:20.792 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:51:21.234 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[437]毫秒内完成
+06-Jul-2020 22:51:21.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:51:21.296 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[61]毫秒内完成
+06-Jul-2020 22:51:21.298 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:51:21.345 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[47]毫秒内完成
+06-Jul-2020 22:51:21.346 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:51:21.380 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[34]毫秒内完成
+06-Jul-2020 22:51:21.386 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:51:21.399 信息 [main] org.apache.catalina.startup.Catalina.start [7,529]毫秒后服务器启动
+06-Jul-2020 22:55:43.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.36
+06-Jul-2020 22:55:43.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 3 2020 17:07:09 UTC
+06-Jul-2020 22:55:43.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.36.0
+06-Jul-2020 22:55:43.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+06-Jul-2020 22:55:43.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+06-Jul-2020 22:55:43.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+06-Jul-2020 22:55:43.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-14.0.1
+06-Jul-2020 22:55:43.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    14.0.1+7
+06-Jul-2020 22:55:43.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+06-Jul-2020 22:55:43.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:55:43.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.36
+06-Jul-2020 22:55:43.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jul-2020 22:55:43.316 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+06-Jul-2020 22:55:43.316 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jul-2020 22:55:43.316 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\apache-tomcat-9.0.36\conf\logging.properties
+06-Jul-2020 22:55:43.317 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2020 22:55:43.317 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2020 22:55:43.318 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2020 22:55:43.319 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+06-Jul-2020 22:55:43.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:55:43.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\apache-tomcat-9.0.36
+06-Jul-2020 22:55:43.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\apache-tomcat-9.0.36\temp
+06-Jul-2020 22:55:43.355 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\android-sdk\platform-tools;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\GitHubDesktop\bin;C:\Users\LYR\AppData\Roaming\npm;C:\Users\LYR\AppData\Local\Programs\Fiddler;C:\Users\LYR\AppData\Local\Microsoft\WindowsApps;C:\Users\LYR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+06-Jul-2020 22:55:43.802 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+06-Jul-2020 22:55:43.965 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[989]毫秒内初始化
+06-Jul-2020 22:55:44.022 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+06-Jul-2020 22:55:44.023 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.36]
+06-Jul-2020 22:55:44.054 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:55:44.093 信息 [main] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[D:\apache-tomcat-9.0.36\webapps\css-validator],它的最后修改时间与关联的WAR不一致.它将被删除.
+06-Jul-2020 22:55:50.846 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:55:50.951 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[6,896]ms内完成
+06-Jul-2020 22:55:50.952 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\docs]
+06-Jul-2020 22:55:50.986 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\docs]的部署已在[34]毫秒内完成
+06-Jul-2020 22:55:50.987 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\examples]
+06-Jul-2020 22:55:51.447 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\examples]的部署已在[460]毫秒内完成
+06-Jul-2020 22:55:51.448 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\host-manager]
+06-Jul-2020 22:55:51.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\host-manager]的部署已在[66]毫秒内完成
+06-Jul-2020 22:55:51.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\manager]
+06-Jul-2020 22:55:51.569 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\manager]的部署已在[54]毫秒内完成
+06-Jul-2020 22:55:51.570 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.36\webapps\ROOT]
+06-Jul-2020 22:55:51.615 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.36\webapps\ROOT]的部署已在[44]毫秒内完成
+06-Jul-2020 22:55:51.622 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+06-Jul-2020 22:55:51.641 信息 [main] org.apache.catalina.startup.Catalina.start [7,673]毫秒后服务器启动
+06-Jul-2020 22:59:31.889 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/css-validator]
+06-Jul-2020 22:59:32.568 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 22:59:38.084 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 22:59:38.091 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,523]ms内完成
+06-Jul-2020 23:03:58.399 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/css-validator]
+06-Jul-2020 23:03:59.047 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 23:04:04.402 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 23:04:04.411 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,364]ms内完成
+06-Jul-2020 23:46:17.037 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/css-validator]
+06-Jul-2020 23:46:17.694 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]
+06-Jul-2020 23:46:23.121 信息 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+06-Jul-2020 23:46:23.131 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.36\webapps\css-validator.war]的部署已在[5,437]ms内完成
